@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Holiday - Adir Avraham</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="mycss.css">
+</head>
+<body>
+        <nav class="float-right col-xl-3 navbar navbar-expand-lg navbar-light bg-light">
+                  <form action="https://www.google.com/search" class=" form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Google Search" aria-label="Search" name="q">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+    <div class="jumbotron jumbotron-fluid button-no-paddind">
+        <div class="container">
+            <h1 class="display-4">Holiday</h1>
+            <p class="lead">This tool will help you manage your holidays at one place.</p>
+        </div>
+    </div>
+    <div class="container">
+        <form class="col-lg-4">
+            <div class="form-group">
+                <input type="text" class="form-control" id="inputHolidayName" placeholder="Enter holiday name">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="inputHolidayImage" placeholder="Image path">
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-control" id="inputPrice" placeholder="Enter price">
+            </div>
+            <div class="form-group">
+                <select id="inputRate" class="form-control">
+                    <option selected>Rating</option>
+                    <option value="****">Excellent</option>
+                    <option value="***">Good</option>
+                    <option value="**">Regular</option>
+                    <option value="*">Bad</option>
+                </select>
+            </div>
+            <button id="saveButton" type="button" class="btn btn-primary">SAVE</button>
+            <button id="sortButton" type="button" class="btn btn-info m-3 ">SORT BY PRICE</button>
+        </form>        
+        <div id="Card">
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
